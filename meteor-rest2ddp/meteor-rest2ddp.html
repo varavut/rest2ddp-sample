@@ -1,0 +1,17 @@
+<head>
+    <title>meteor-rest2ddp</title>
+</head>
+
+<body>
+    {{> hello}}
+</body>
+
+<template name="hello">
+    <ul>
+        {{#each samples}}
+        <li>
+            {{this.value}}
+        </li>
+        {{/each}}
+    </ul>
+</template>
